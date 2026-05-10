@@ -34,11 +34,13 @@ export function RegisterForm() {
       {/* Left side: Form */}
       <div className="flex w-full flex-col p-8 sm:p-12 lg:w-[45%] xl:p-20">
         <div className="mb-12">
-          <Link href="/" className="flex items-center gap-2">
-            <div className="relative flex size-8 items-center justify-center overflow-hidden rounded-lg bg-black">
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative flex size-10 items-center justify-center overflow-hidden rounded-2xl bg-surface-raised border border-border shadow-xl transition-transform duration-300 group-hover:scale-105">
               <img src="/traveloop_logo.png" alt="Traveloop Logo" className="h-full w-full object-cover" />
             </div>
-            <span className="font-serif text-xl font-medium text-text-primary tracking-tight">Traveloop</span>
+            <span className="font-serif text-2xl font-bold tracking-tight text-text-primary uppercase">
+              Traveloop<span className="text-primary">.</span>
+            </span>
           </Link>
         </div>
 

@@ -100,11 +100,11 @@ export function LoginForm() {
         {/* Logo */}
         <div className="animate-fade-in">
           <Link href="/" className="inline-flex items-center gap-3 group/logo">
-            <div className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl bg-black shadow-xl transition-transform duration-300 group-hover/logo:scale-105">
+            <div className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl bg-surface-raised border border-border shadow-xl transition-transform duration-300 group-hover/logo:scale-105">
               <img src="/traveloop_logo.png" alt="Traveloop Logo" className="h-full w-full object-cover" />
             </div>
-            <span className="font-serif text-2xl font-bold tracking-tight text-text-primary">
-              Traveloop
+            <span className="font-serif text-2xl font-bold tracking-tight text-text-primary uppercase">
+              Traveloop<span className="text-primary">.</span>
             </span>
           </Link>
         </div>

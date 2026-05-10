@@ -8,7 +8,20 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col overflow-hidden bg-background">
       {/* Header Toolbar */}
-      <header className="flex h-14 items-center border-b border-border bg-background px-6 shrink-0">
+      <header className="flex h-14 items-center border-b border-border bg-background px-6 shrink-0 gap-8">
+        {/* Logo Section */}
+        <Link href="/dashboard" className="flex items-center gap-2.5 group">
+          <div className="relative flex h-8 w-8 items-center justify-center overflow-hidden rounded-xl bg-surface-raised border border-border shadow-sm transition-transform duration-300 group-hover:scale-105">
+            <img 
+              src="/traveloop_logo.png" 
+              alt="Traveloop Logo" 
+              className="h-full w-full object-cover" 
+            />
+          </div>
+          <span className="text-sm font-bold tracking-tight text-text-primary">
+            Traveloop
+          </span>
+        </Link>
         
         {/* Navigation Links */}
         <nav className="flex items-center gap-6">
