@@ -1,0 +1,16 @@
+# Traveloop — Supabase Project Configuration
+
+project_id = "gtwrknkmntpgryqjcjwu"
+
+[db]
+# Schema migrations applied via supabase migration
+
+[functions.generate-trip]
+enabled = true
+verify_jwt = false  # Function handles JWT extraction from Authorization header
+
+[api]
+# Edge function API settings
+
+[auth]
+# Auth handled by Supabase Auth
