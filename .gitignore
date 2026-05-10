@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Project assets and docs to ignore
+/TL_alt_report/
+/Traveloop - 8 hours.excalidraw
+/Traveloop - 8 hours.svg
+/Traveloop.pdf
+/VIDEO_SCRIPT.md
+/video-screenshots/
